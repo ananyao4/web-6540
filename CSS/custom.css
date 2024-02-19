@@ -1,0 +1,15 @@
+.text-uppercase {
+    text-transform: uppercase;
+}
+a {
+    padding:5px 5px ;
+    background-color: navy;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    display:inline-block ;
+}
+input {
+    margin-top: 10px;
+}
