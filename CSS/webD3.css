@@ -160,9 +160,63 @@
  th , td {
    border: 1px solid #555555;
  }
- th {
+ 
+ /* ----------------------------------------start--------------------------------------------------------- */
+ .contact{
+  width: 1100px;
+  margin: auto;
+}
 
- }
- td {
+.text-email{
+  margin-left: 420px;
+}
 
- }
+.text-fname{
+  margin: auto; 
+ width: 500px;
+ border: 1px solid rgb(0, 0, 0);
+ background-color: rgb(246, 207, 213);
+}
+
+.text-mail{
+ margin: auto; 
+ width: 500px;
+ border: 1px solid rgb(0, 0, 0);
+ background-color: rgb(246, 207, 213); 
+}
+
+.text-subject{
+ margin: auto; 
+ width: 1005px;
+ border: 1px solid rgb(0, 0, 0);
+ background-color: rgb(246, 207, 213); 
+}
+
+.text-address{
+ margin: auto; 
+ width: 1005px;
+ border: 1px solid rgb(0, 0, 0);
+ background-color: rgb(246, 207, 213);
+ padding: 5%;
+}
+
+.message{
+  text-align: center;
+}
+
+.box-message{
+  background-color: #B40000;
+  color: aliceblue;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+
+}
+
+footer {
+  background-color: #780000; 
+  text-align: center; 
+  color: aliceblue;
+  padding: 10px;
+  }
