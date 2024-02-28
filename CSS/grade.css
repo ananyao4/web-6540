@@ -1,0 +1,37 @@
+.header {
+   background-color: #c16f91;
+    text-align: center;
+    margin: 20px 500px 20px 500px;
+    width: 50%;
+    border-radius: 10px; 
+}
+img {
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+    margin: 20px 500px;
+    display: flex;
+    
+}
+.name {
+        background-color: rgb(175, 175, 248);
+        margin-right:10px 200px ;
+        width: 50%;
+        padding: 20px;
+        float: right;
+        text-align: right;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+       
+ }
+.grade {
+    background-color: #6d90d6;
+    text-align: center;
+    margin: 20px 300px 20px 300px;
+    width: 50%;
+    border-radius: 10px; 
+}
+.box {
+    text-align: center;
+    border: 800px;
+ }
