@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+     font-family: 'poppins' ,sans-serif
+}
+
+header {
+    background-color: black;
+}
+
+
+nav {
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: azure;
+    justify-content: space-between;
+
+    /* background-color: greenyellow; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+ /* ------------------------------------------------rps menu ----------------------------------------------------*/
+ @media screen  and (max-width:480px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul {
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+    }
+}
+/* -----------------------------------------------hero---------------------------------------------------------- */
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1494256997604-768d1f608cac?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero {
+    color: greenyellow;
+    text-align: center;
+
+    font-size: 60px;
+}
+
+/* ----------------------------------------------- mypet-social-media-------------------------------------------  */
+.social-media {
+    text-align: center;
+    background-color: azure;
+}
+.social-media img {
+    padding: 20px;
+    margin: 30px 10px;
+}
+/* ----------------------------------------------- rps social-media --------------------------------------------  */
+@media screen and (max-width:1050px) {
+    .social-box{
+        display: grid;
+        /* grid-template-columna: 1fr 1fr 1fr */
+        grid-template-columns: repeat(3,1fr);
+        max-width: 100%;
+        margin: auto;
+    }
+    .social-media img {
+        margin: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .social-box {
+        display: grid;
+        /* grid-template-columna: 1fr 1fr 1fr */
+        grid-template-columns: repeat(2,1fr);
+        max-width: 100%;
+        margin: auto;
+    }
+    .social-media img {
+        margin: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .social-box {
+        display: grid;
+        /* grid-template-columna: 1fr 1fr 1fr */
+        grid-template-columns: repeat(1,1fr);
+        max-width: 100%;
+        margin: auto;
+    }
+    .social-media img {
+        margin: auto;
+        padding: 20px;
+    }
+}
+/*------------------------------------------------ mypat-content------------------------------------------------- */
+.mypat-content {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr);
+
+    max-width: 95%;
+    margin: auto;
+
+}
+
+.box {
+    /* background-color: palegreen; */
+    margin: 30px 10px;
+    box-shadow: 0px 0px 3px 0px #2a1818;
+    border-radius: 10px ;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-content {
+    padding: 10px;
+}
+
+/* -------------------------------------------rps prt content -----------------------------------------*/
+@media screen  and (max-width:768px){
+    .mypat-content {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(2,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    
+    }
+    
+    .box {
+        /* background-color: palegreen; */
+        margin: 30px 10px;
+        
+        border-radius: 10px ;
+    }
+}
+/* -------------------------------------------rps prt content -----------------------------------------*/
+@media screen  and (max-width:480px){
+    .mypat-content {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(1,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    
+    }
+    
+    .box {
+        /* background-color: palegreen; */
+        margin: 30px 10px;
+        
+        border-radius: 10px ;
+    }
+}
+
+
+/* ---------------------------------------------footer----------------------------------------------- */
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}
