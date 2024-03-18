@@ -38,3 +38,36 @@ input {
    
     box-shadow: 0px 2px 10px rgb(228, 58, 166);
 }
+/* -------------------------------------------------------------------- */
+.ember {
+    background-color: rgb(244, 205, 105);
+    padding: 40px;
+  }
+  .text-h1 {
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+  .text-parem {
+    color: black;
+    text-align: center;
+  }
+  .member-box {
+    width: 1100px;
+    background-color: #fafafa;
+    margin: auto;
+    box-shadow: 0px 0px 8px 2px #333333;
+    border-radius: 20px;
+    padding: 1px 40px 40px;
+  }
+  /* table {
+    width: 80%;
+    border: 1px solid #555555;
+    border-collapse: collapse;
+    
+    margin: auto;
+  }
+  th , td {
+    border: 1px solid #555555;
+  } */

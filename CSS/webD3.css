@@ -128,10 +128,9 @@
    font-size: small;
  }
  /* ------------------------------------------Start Members Section -----------------------------------------------*/
- .member {
-   background-color: chartreuse;
-   padding: 40px;
- }
+.ember {
+  background-color: #ffaaaa;
+}
  .text-h1 {
    color: black;
    text-align: center;
