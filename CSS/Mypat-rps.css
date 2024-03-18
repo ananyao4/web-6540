@@ -186,17 +186,6 @@ nav ul li {
         border-radius: 10px ;
     }
 }
-/* ---------------------------------------------menu 01home ------------------------------------------ */
-.menu {
-    background-color: hotpink;
-    border-radius: 10px;
-    margin-top: 40px;
-    padding: 4px 20px;
-    width: 50px;
-    text-align: center;
-    margin: auto;
-    box-shadow: 0px 2px 10px rgb(228, 58, 166);
-}
 
 /* ---------------------------------------------footer----------------------------------------------- */
 footer {
@@ -204,4 +193,19 @@ footer {
     text-align: center;
     color: whitesmoke;
     padding: 10px;
+}
+/* ---------------------------------------------menu 01home ------------------------------------------ */
+.manu {
+    background-color: hotpink;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 2px 10px rgb(228, 58, 166);
+}
+a {
+    text-decoration: none;
+    color: azure;
 }
